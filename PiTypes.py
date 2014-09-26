@@ -22,7 +22,7 @@ import ctypes as ctypes
 
 ##### Following definitions are from page 11 
 piint = ctypes.c_int # """Integer native to platform"""
-piflt = ctypes.c_float # """Floating point native to platform"""
+piflt = ctypes.c_double # """Floating point native to platform"""
 pibln = ctypes.c_bool # """Boolean native to platform"""
 pichar = ctypes.c_char # """character native to platform"""
 pibyte = ctypes.c_byte # """Byte native to platform"""
